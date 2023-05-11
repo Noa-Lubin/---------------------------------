@@ -1,0 +1,44 @@
+.keyboard1{
+}
+#buttons{
+    background-color: rgba(194, 194, 194, 0.411);
+    width: 1000px;
+    margin-left: 260px;
+}
+.display{
+    overflow: auto;
+    overflow-wrap: break-word;
+    padding-top: 30px;
+    color: white;
+    background-color: black;
+    height: 250px;
+    width: 1000px;
+    margin-top:  50px;
+    margin-left: 260px;
+    /* border: 2px white solid; */
+
+}
+.btn{
+    width: 45px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin: 3px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px black;
+    border-radius: 10%;
+}
+.btn:active{
+    background-color: rgba(194, 194, 194, 0.411);
+}
+.lang, .special{
+width:auto;
+}
+
+.space{
+    width: 350px;
+}
+.color{
+    width:60px;
+    height: 40px;
+}

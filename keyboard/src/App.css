@@ -1,0 +1,79 @@
+.keyboard1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 850px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.demoPage .screenContainer {
+  background: rgba(0, 0, 0, 0.8);
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  height: 200px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.demoPage .inputContainer {
+  color: rgba(255, 255, 255, 0.9);
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: monospace;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.simple-keyboard.hg-layout-custom {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.simple-keyboard .hg-button.hg-selectedButton {
+  background: rgba(5, 25, 70, 0.53);
+  color: white;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

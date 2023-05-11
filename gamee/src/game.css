@@ -1,0 +1,38 @@
+.gamee{
+    background-color: white;
+    color: black;
+}
+#black {
+    border: 1.2px black solid;  
+}
+#red {
+    border: 2px red solid;  
+}
+#yellow {
+    border: 2px yellow solid;  
+}
+#blue {
+    border: 2px blue solid;  
+}
+#green {
+    border: 2px green solid;  
+}
+.btn{
+    margin-top: 40px;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border: 1px black solid;
+    border-radius: 12px;
+}
+.btnOp{
+    height: 30px;
+    width: 60px;
+    color: black;
+}
+.labels{
+    font-size: 1.5rem;
+    direction: rtl;
+    font-weight: bold;
+    font-style: italic;
+}
